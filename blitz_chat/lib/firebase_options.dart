@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAz3Hd62X0pTPN8CrYjLUuH8YlkKF6StBk',
-    appId: '1:963957040939:web:25e3a9d75e6050c533876e',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
     messagingSenderId: '963957040939',
-    projectId: 'smartchat-a13ae',
-    authDomain: 'smartchat-a13ae.firebaseapp.com',
-    storageBucket: 'smartchat-a13ae.appspot.com',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
     measurementId: 'G-2KRXSH1ZC4',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyACECKNOEIU_Xtxvg8GZUBEbqBHgCvPiOw',
-    appId: '1:963957040939:android:efcf25329966bac633876e',
-    messagingSenderId: '963957040939',
-    projectId: 'smartchat-a13ae',
-    storageBucket: 'smartchat-a13ae.appspot.com',
+    apiKey: 'YOUR_API_KEY',
+    appId: 'YOUR_APP_ID',
+    messagingSenderId: 'YOUR_MSG_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBEn3y6eXyc_bQ0y3yiz9BiAZardBXyuhA',
+    apiKey: 'YOUR_API_KEY',
     appId: '1:963957040939:ios:fe4541cd4a5eba3333876e',
     messagingSenderId: '963957040939',
-    projectId: 'smartchat-a13ae',
-    storageBucket: 'smartchat-a13ae.appspot.com',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
     iosBundleId: 'com.example.chatApp',
   );
 }
