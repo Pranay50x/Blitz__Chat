@@ -14,7 +14,7 @@ Share images easily during conversations.
 ### Cloud Storage:
 Uploaded media is stored in Firestore.
 
-###R esponsive UI:
+###Responsive UI:
 Optimized for both Android and iOS devices.
 
 ## Tech Stack
